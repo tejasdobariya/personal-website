@@ -1,0 +1,199 @@
+body {
+  /* background-color: rgb(241 190 190); */
+  margin: 0;
+  padding: 0;
+  background-color: #c4dfe6;
+}
+
+/* navigation bar */
+nav ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #336b87;
+  border-radius: 40px;
+  font-family: "Mate SC", sans-serif;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  padding: 0.9%;
+  margin-right: 4%;
+  text-decoration: none;
+  font-size: 1.6rem;
+  float: left;
+}
+
+nav li a:hover {
+  background-color: #90afc5;
+}
+
+/* MY INFORMATION */
+.abou {
+  padding: 2%;
+  font-size: 1.6rem;
+  /* background-color: #a3a3ef; */
+  background-color: #1b998b;
+  border-radius: 15px;
+  margin: 0.5%;
+  color: white;
+  font-weight: lighter;
+  font-family: "Pattaya", sans-serif;
+}
+
+.name,
+.bdate,
+.address {
+  margin: 1%;
+}
+
+.addre1 {
+  margin-left: 7%;
+}
+
+/* STUDY */
+.text1:hover,
+.text2:hover,
+.text3:hover {
+  animation-name: iam;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+#Study {
+  margin-left: 3%;
+}
+
+.s {
+  margin: 3%;
+  border-radius: 30px;
+  margin-top: 4%;
+  margin-bottom: 8%;
+  padding: 1%;
+  /* background-color: #336b87; */
+  background-color: #84b3ca;
+  font-family: "Roboto Slab", serif;
+}
+
+.text1,
+.text3,
+.text2 {
+  font-size: 1.3rem;
+  margin-top: -1%;
+  margin-left: 1%;
+}
+
+.s:hover,
+.h:hover,
+.a:hover {
+  /* background-color: #faa4ff; */
+  /* background-color: #a3a3ef; */
+  /* background-color: #e07a5f; */
+  background-color: #f2cc8f;
+  border-radius: 50px;
+  width: 47%;
+  margin-left: 20%;
+  animation-name: st;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+#Study:hover,
+#Hobbies:hover,
+#Achivements:hover {
+  animation-name: iam;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes iam {
+  0% {
+    padding: 10px;
+    font-size: 1.3rem;
+  }
+
+  100% {
+    padding: 15px;
+    font-size: 1.5rem;
+  }
+}
+@keyframes st {
+  0% {
+    padding: 10px;
+  }
+  100% {
+    padding: 15px;
+  }
+}
+
+/* ACHIVEMENT */
+#Academics,
+#Hobbies,
+#Achivements {
+  color: #000;
+  font-weight: bolder;
+  margin-left: 3%;
+  font-size: 1.5rem;
+}
+
+.a {
+  margin: 3%;
+  border-radius: 30px;
+  /* background-color: #336b87; */
+  background-color: #84b3ca;
+  margin-bottom: 8%;
+  padding: 1%;
+  font-family: "Roboto Slab", serif;
+}
+
+/* HOBBY */
+.h {
+  margin: 3%;
+  border-radius: 30px;
+  background-color: #84b3ca;
+  margin-bottom: 8%;
+  padding: 1%;
+  font-family: "Roboto Slab", serif;
+}
+
+#startup {
+  margin-top: 50px;
+  text-align: center;
+  color: #000;
+}
+
+/* #achi { */
+/* background-color: #c4dfe6; */
+/* margin-bottom: 470px; */
+/* } */
+#si {
+  background-color: #a3fc92;
+  margin-bottom: 490px;
+}
+/* #hb { */
+/* background-color: rgb(229 252 127); */
+/* margin-bottom: 440px; */
+/* } */
+#acd {
+  background-color: #c4dfe6;
+  /* margin-bottom: 470px; */
+}
+#back {
+  height: 30px;
+  margin-bottom: 10px;
+  margin-left: 90%;
+  text-align: center;
+  font-size: 20px;
+}
+#end {
+  text-align: center;
+  color: rgb(255, 0, 0);
+  font-family: "Pattaya", sans-serif;
+  font-weight: bolder;
+  font-size: 2.1rem;
+}
+#ok {
+  text-decoration: none;
+}
