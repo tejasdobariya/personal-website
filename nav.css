@@ -202,7 +202,7 @@ span {
   }
   span {
     font-size: 20px;
-    margin-left: 70px;
+    margin-left: 39px;
   }
   .middle {
     margin-bottom: 230px;
@@ -228,8 +228,12 @@ span {
     font-size: 19px;
     margin-left: 50px;
   }
+  li a {
+    padding: 10px;
+    font-size: 18px;
+  }
   .middle {
-    margin-bottom: 180px;
+    margin-bottom: 250px;
   }
   .myimage img {
     width: 150px;
@@ -279,16 +283,18 @@ span {
   }
   span {
     font-size: 19px;
-    margin-left: 50px;
+    margin-left: 45px;
   }
   .middle {
     display: block;
     margin-bottom: 300px;
+    margin-top: 75px;
   }
   .myimage img {
     width: 120px;
     height: 120px;
     margin-top: 10px;
+    margin-left: 40px;
   }
   .social {
     margin-top: 320px;
@@ -304,6 +310,20 @@ span {
 @media only screen and (max-width: 415px) {
   .middle {
     margin-bottom: 495px;
+    margin-top: 76px;
+    margin-left: 49px;
+  }
+  .myimage img {
+    margin-left: 40px;
+  }
+  .text {
+    font-size: 28px;
+    margin-left: -5px;
+    /* border: 2px solid red; */
+  }
+  span {
+    font-size: 19px;
+    margin-left: 25px;
   }
   .social {
     margin-top: 410px;
@@ -320,7 +340,7 @@ span {
   }
   span {
     font-size: 16px;
-    margin-left: 50px;
+    margin-left: 30px;
   }
   .copy {
     font-size: 10px;
@@ -337,6 +357,7 @@ span {
   }
   .myimage img {
     margin-top: 10px;
+    /* margin-left: 20px; */
   }
 }
 @media only screen and (max-width: 340px) {
