@@ -40,7 +40,8 @@ nav li a:hover {
   margin: 0.5%;
   color: white;
   font-weight: lighter;
-  font-family: "Pattaya", sans-serif;
+  /* font-family: "Pattaya", sans-serif; */
+  font-family: "Roboto Slab", serif;
 }
 
 .name,
@@ -93,8 +94,8 @@ nav li a:hover {
   /* background-color: #e07a5f; */
   background-color: #f2cc8f;
   border-radius: 50px;
-  width: 47%;
-  margin-left: 20%;
+  width: 60%;
+  margin-left: 10%;
   animation-name: st;
   animation-duration: 1s;
   animation-fill-mode: forwards;
@@ -164,18 +165,11 @@ nav li a:hover {
   color: #000;
 }
 
-/* #achi { */
-/* background-color: #c4dfe6; */
-/* margin-bottom: 470px; */
-/* } */
 #si {
   background-color: #a3fc92;
   margin-bottom: 490px;
 }
-/* #hb { */
-/* background-color: rgb(229 252 127); */
-/* margin-bottom: 440px; */
-/* } */
+
 #acd {
   background-color: #c4dfe6;
   /* margin-bottom: 470px; */
