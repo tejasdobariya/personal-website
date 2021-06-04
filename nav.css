@@ -166,17 +166,13 @@ span {
 @media only screen and (max-width: 1140px) {
   .co {
     font-size: 1rem;
-  }
-}
-@media only screen and (max-width: 1030px) {
-  .co {
     margin-top: 40%;
   }
 }
 @media only screen and (max-width: 945px) {
   .co {
     font-size: 0.8rem;
-    margin-top: 50%;
+    margin-top: 55%;
   }
   .ins img,
   .fb img,
@@ -187,7 +183,7 @@ span {
 @media only screen and (max-width: 760px) {
   .co {
     font-size: 0.6rem;
-    margin-top: 65%;
+    margin-top: 70%;
   }
   .name,
   .address,
@@ -203,7 +199,7 @@ span {
 }
 @media only screen and (max-width: 600px) {
   .co {
-    margin-top: 80%;
+    margin-top: 88%;
   }
   .ins img,
   .fb img,
@@ -234,7 +230,7 @@ span {
   .name,
   .address,
   .num {
-    height: 2vh;
+    height: 3vh;
   }
   .ins img,
   .fb img,
@@ -250,7 +246,7 @@ span {
   .name,
   .address,
   .num {
-    height: 1vh;
+    height: 3vh;
   }
   .ins img,
   .fb img,
@@ -358,12 +354,6 @@ span {
   .soc2,
   .soc3,
   .soc4 {
-    /* display: block;
-    margin-left: -40px;
-    margin-top: 12px;
-    font-size: 1.1rem;
-    color: black;
-    text-decoration: none; */
     display: none;
   }
 }
@@ -417,7 +407,6 @@ span {
   }
   .text {
     font-size: 28px;
-    /* border: 2px solid red; */
   }
   span {
     font-size: 19px;
@@ -457,7 +446,6 @@ span {
   .text {
     font-size: 28px;
     margin-left: -5px;
-    /* border: 2px solid red; */
   }
   span {
     font-size: 19px;
@@ -474,7 +462,6 @@ span {
   }
   .text {
     font-size: 21px;
-    /* border: 2px solid red; */
   }
   span {
     font-size: 16px;
