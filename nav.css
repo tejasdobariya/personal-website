@@ -127,12 +127,13 @@ span {
   margin-left: 30%;
   font-weight: bold;
   font-size: 1.2rem;
+  margin-bottom: 1%;
 }
 .name,
 .address,
 .num {
   /* border: 2px solid black; */
-  margin: 5%;
+  margin: 4%;
   margin-left: 10%;
   height: 5vh;
   font-family: "Noto Sans JP", sans-serif;
@@ -145,20 +146,69 @@ span {
   text-align: center;
   margin-top: 2%;
 }
+.logos {
+  /* border: 2px solid red; */
+  margin-left: 10%;
+  display: flex;
+}
+.ins img {
+  height: 40px;
+  margin-right: 25px;
+}
+.fb img {
+  height: 40px;
+  margin-right: 25px;
+}
+.em img {
+  height: 40px;
+}
 
 @media only screen and (max-width: 1140px) {
   .co {
     font-size: 1rem;
   }
 }
+@media only screen and (max-width: 1030px) {
+  .co {
+    margin-top: 40%;
+  }
+}
 @media only screen and (max-width: 945px) {
   .co {
     font-size: 0.8rem;
+    margin-top: 50%;
+  }
+  .ins img,
+  .fb img,
+  .em img {
+    height: 30px;
   }
 }
 @media only screen and (max-width: 760px) {
   .co {
     font-size: 0.6rem;
+    margin-top: 65%;
+  }
+  .name,
+  .address,
+  .num {
+    margin: 1%;
+    margin-left: 10%;
+  }
+  .ins img,
+  .fb img,
+  .em img {
+    height: 25px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .co {
+    margin-top: 80%;
+  }
+  .ins img,
+  .fb img,
+  .em img {
+    height: 20px;
   }
 }
 @media only screen and (max-width: 500px) {
@@ -170,6 +220,12 @@ span {
   .num {
     height: 3vh;
   }
+  .ins img,
+  .fb img,
+  .em img {
+    height: 17px;
+    margin-right: 15px;
+  }
 }
 @media only screen and (max-width: 410px) {
   .co {
@@ -180,6 +236,12 @@ span {
   .num {
     height: 2vh;
   }
+  .ins img,
+  .fb img,
+  .em img {
+    height: 13px;
+    margin-right: 10px;
+  }
 }
 @media only screen and (max-width: 330px) {
   .co {
@@ -189,6 +251,12 @@ span {
   .address,
   .num {
     height: 1vh;
+  }
+  .ins img,
+  .fb img,
+  .em img {
+    height: 10px;
+    margin-right: 8px;
   }
 }
 
