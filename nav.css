@@ -120,6 +120,78 @@ span {
   color: red;
 }
 
+.co {
+  /* border: 2px solid red; */
+  background-color: white;
+  width: 30%;
+  margin-left: 30%;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.name,
+.address,
+.num {
+  /* border: 2px solid black; */
+  margin: 5%;
+  margin-left: 10%;
+  height: 5vh;
+  font-family: "Noto Sans JP", sans-serif;
+}
+.name {
+  /* border: 2px solid black; */
+  margin-top: 7%;
+}
+.me {
+  text-align: center;
+  margin-top: 2%;
+}
+
+@media only screen and (max-width: 1140px) {
+  .co {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 945px) {
+  .co {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .co {
+    font-size: 0.6rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .co {
+    font-size: 0.5rem;
+  }
+  .name,
+  .address,
+  .num {
+    height: 3vh;
+  }
+}
+@media only screen and (max-width: 410px) {
+  .co {
+    font-size: 0.4rem;
+  }
+  .name,
+  .address,
+  .num {
+    height: 2vh;
+  }
+}
+@media only screen and (max-width: 330px) {
+  .co {
+    font-size: 0.3rem;
+  }
+  .name,
+  .address,
+  .num {
+    height: 1vh;
+  }
+}
+
 /* copyright */
 .copy {
   background-color: gray;
@@ -128,7 +200,6 @@ span {
   height: 22px;
   font-size: 15px;
 }
-
 @media only screen and (max-width: 1350px) {
   .myimage img {
     width: 280px;
@@ -215,6 +286,18 @@ span {
   .social {
     margin-top: 330px;
   }
+  .soc1,
+  .soc2,
+  .soc3,
+  .soc4 {
+    /* display: block;
+    margin-left: -40px;
+    margin-top: 12px;
+    font-size: 1.1rem;
+    color: black;
+    text-decoration: none; */
+    display: none;
+  }
 }
 @media only screen and (max-width: 550px) {
   .middle {
@@ -257,19 +340,6 @@ span {
     height: 25px;
     width: 25px;
     margin-top: 9px;
-  }
-
-  .soc1,
-  .soc2,
-  .soc3,
-  .soc4 {
-    /* display: block;
-    margin-left: -40px;
-    margin-top: 12px;
-    font-size: 1.1rem;
-    color: black;
-    text-decoration: none; */
-    display: none;
   }
 }
 @media only screen and (max-width: 430px) {
