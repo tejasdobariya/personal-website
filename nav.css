@@ -53,7 +53,7 @@ li a:hover {
   display: flex;
   margin-top: 12%;
   margin-left: 25%;
-  margin-bottom: 400px;
+  margin-bottom: 500px;
 }
 
 /* main text */
@@ -75,27 +75,27 @@ li a:hover {
   0% {
     border-top: 0px;
     border-right: 0px;
-    border-bottom: 2px solid green;
-    border-left: 2px solid red;
+    border-bottom: 1px solid green;
+    border-left: 3px solid red;
   }
   25% {
     border-left: 0px;
     border-top: 0px;
-    border-right: 2px solid blue;
-    border-bottom: 2px solid green;
+    border-right: 1px solid blue;
+    border-bottom: 3px solid green;
   }
   50% {
-    border-top: 2px solid yellow;
+    border-top: 1px solid yellow;
     border-bottom: 0px;
     border-left: 0px;
-    border-right: 2px solid blue;
+    border-right: 3px solid blue;
   }
 
   100% {
-    border-left: 2px solid red;
+    border-left: 1px solid red;
     border-right: 0px;
     border-bottom: 0px;
-    border-top: 2px solid yellow;
+    border-top: 3px solid yellow;
   }
 }
 
@@ -170,7 +170,7 @@ span {
 
 .co {
   /* border: 2px solid red; */
-  background-color: white;
+  background-color: #b8b8ff;
   width: 30%;
   margin-left: 30%;
   font-weight: bold;
@@ -193,6 +193,15 @@ span {
 .me {
   text-align: center;
   margin-top: 2%;
+  animation-name: mul1;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  font-weight: bold;
+}
+@keyframes mul1 {
+  50% {
+    color: red;
+  }
 }
 .logos {
   /* border: 2px solid red; */
@@ -214,30 +223,42 @@ span {
 @media only screen and (max-width: 1140px) {
   .co {
     font-size: 1rem;
-    margin-top: 40%;
+    margin-top: 45%;
+    width: 40%;
+    height: 40vh;
   }
 }
 @media only screen and (max-width: 945px) {
   .co {
     font-size: 0.8rem;
     margin-top: 55%;
+    height: 35vh;
+  }
+  .me {
+    margin-bottom: 10px;
   }
   .ins img,
   .fb img,
   .em img {
     height: 30px;
+    height: 5vh;
   }
 }
 @media only screen and (max-width: 760px) {
   .co {
     font-size: 0.6rem;
     margin-top: 70%;
+    height: 30vh;
+  }
+  .me {
+    margin-bottom: 10px;
   }
   .name,
   .address,
   .num {
     margin: 1%;
     margin-left: 10%;
+    height: 6vh;
   }
   .ins img,
   .fb img,
@@ -248,6 +269,10 @@ span {
 @media only screen and (max-width: 600px) {
   .co {
     margin-top: 88%;
+    height: 27vh;
+  }
+  .me {
+    margin-bottom: 10px;
   }
   .ins img,
   .fb img,
@@ -258,11 +283,15 @@ span {
 @media only screen and (max-width: 500px) {
   .co {
     font-size: 0.5rem;
+    height: 24vh;
+  }
+  .me {
+    margin-bottom: 10px;
   }
   .name,
   .address,
   .num {
-    height: 3vh;
+    height: 5vh;
   }
   .ins img,
   .fb img,
@@ -275,10 +304,13 @@ span {
   .co {
     font-size: 0.4rem;
   }
+  .me {
+    margin-bottom: 10px;
+  }
   .name,
   .address,
   .num {
-    height: 3vh;
+    height: 5vh;
   }
   .ins img,
   .fb img,
@@ -290,11 +322,15 @@ span {
 @media only screen and (max-width: 330px) {
   .co {
     font-size: 0.3rem;
+    height: 18vh;
+  }
+  .me {
+    margin-bottom: 10px;
   }
   .name,
   .address,
   .num {
-    height: 3vh;
+    height: 4vh;
   }
   .ins img,
   .fb img,
@@ -329,7 +365,7 @@ span {
     margin-left: 120px;
   }
   .middle {
-    margin-bottom: 350px;
+    margin-bottom: 450px;
   }
 }
 
@@ -372,7 +408,7 @@ span {
     margin-left: 80px;
   }
   .middle {
-    margin-bottom: 500px;
+    margin-bottom: 600px;
   }
   .myimage img {
     width: 180px;
@@ -388,7 +424,7 @@ span {
     margin-left: 39px;
   }
   .middle {
-    margin-bottom: 3500px;
+    margin-bottom: 700px;
   }
   .myimage img {
     width: 150px;
@@ -408,7 +444,7 @@ span {
 @media only screen and (max-width: 550px) {
   .middle {
     display: block;
-    margin-bottom: 350px;
+    margin-bottom: 550px;
   }
   .text {
     font-size: 28px;
@@ -419,10 +455,7 @@ span {
   }
   li a {
     padding: 10px;
-    font-size: 18px;
-  }
-  .middle {
-    margin-bottom: 350px;
+    font-size: 16px;
   }
   .myimage img {
     width: 150px;
@@ -470,7 +503,7 @@ span {
   }
   .middle {
     display: block;
-    margin-bottom: 400px;
+    margin-bottom: 600px;
     margin-top: 75px;
   }
   .myimage img {
@@ -501,7 +534,7 @@ span {
 }
 @media only screen and (max-width: 415px) {
   .middle {
-    margin-bottom: 600px;
+    margin-bottom: 700px;
     margin-top: 76px;
     margin-left: 49px;
   }
