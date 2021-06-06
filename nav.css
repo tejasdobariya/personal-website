@@ -77,18 +77,21 @@ li a:hover {
     border-right: 0px;
     border-bottom: 1px solid green;
     border-left: 3px solid red;
+    filter: grayscale(0%);
   }
   25% {
     border-left: 0px;
     border-top: 0px;
     border-right: 1px solid blue;
     border-bottom: 3px solid green;
+    filter: grayscale(33%);
   }
   50% {
     border-top: 1px solid yellow;
     border-bottom: 0px;
     border-left: 0px;
     border-right: 3px solid blue;
+    filter: grayscale(66%);
   }
 
   100% {
@@ -96,6 +99,7 @@ li a:hover {
     border-right: 0px;
     border-bottom: 0px;
     border-top: 3px solid yellow;
+    filter: grayscale(100%);
   }
 }
 
@@ -112,7 +116,6 @@ li a:hover {
   animation-iteration-count: infinite;
   animation-duration: 4s;
 }
-
 span {
   font-size: 50px;
   margin-left: 130px;
