@@ -327,6 +327,7 @@ nav li a:hover {
   .sk {
     margin-bottom: 60%;
     margin-top: 30%;
+    box-shadow: 5px 6px 0px #7689ff;
   }
 }
 
@@ -417,6 +418,7 @@ nav li a:hover {
   .sk {
     margin-bottom: 70%;
     margin-top: 40%;
+    box-shadow: 5px 6px 0px #7689ff;
   }
 }
 
@@ -475,6 +477,7 @@ nav li a:hover {
   .sk {
     margin-bottom: 130%;
     margin-top: 60%;
+    box-shadow: 4px 5px 0px #7689ff;
   }
   .html,
   .css,
@@ -508,6 +511,7 @@ nav li a:hover {
   .sk {
     margin-bottom: 150%;
     margin-top: 80%;
+    box-shadow: 3px 4px 0px #7689ff;
   }
   .html,
   .css,
@@ -541,6 +545,7 @@ nav li a:hover {
   .sk {
     margin-bottom: 200%;
     margin-top: 90%;
+    box-shadow: 2px 3px 0px #7689ff;
   }
   .html,
   .css,
