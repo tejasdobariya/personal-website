@@ -19,14 +19,12 @@ nav ul {
   animation-name: slide;
   animation-duration: 1s;
   animation-fill-mode: forwards;
-  /* margin-bottom: 10%; */
 }
 @keyframes slide {
   100% {
     left: 0%;
   }
 }
-
 nav li a {
   display: block;
   color: white;
@@ -38,7 +36,6 @@ nav li a {
   font-size: 1.6rem;
   float: left;
 }
-
 nav li a:hover {
   background-color: #90afc5;
 }
@@ -47,12 +44,11 @@ nav li a:hover {
 #Study {
   margin-left: 3%;
 }
-
 .s {
   margin: 3%;
   border-radius: 30px;
   margin-top: 20%;
-  margin-bottom: 40%;
+  margin-bottom: 50%;
   padding: 1%;
   /* background-color: #336b87; */
   background-color: #84b3ca;
@@ -61,18 +57,18 @@ nav li a:hover {
   animation-duration: 2s;
   animation-delay: 2s;
   z-index: 2;
+  box-shadow: 6px 7px 0px #7689ff;
   position: relative;
 }
 @keyframes blink {
   50% {
-    transform: skewX(5deg);
+    transform: skewX(8deg);
   }
 
   100% {
-    transform: skewX(-5deg);
+    transform: skewX(-8deg);
   }
 }
-
 .text1,
 .text3,
 .text2 {
@@ -80,7 +76,6 @@ nav li a:hover {
   margin-top: -1%;
   margin-left: 1%;
 }
-
 @media only screen and (min-width: 600px) {
   .text1:hover,
   .text2:hover,
@@ -96,6 +91,7 @@ nav li a:hover {
     /* background-color: #a3a3ef; */
     /* background-color: #e07a5f; */
     background-color: #f2cc8f;
+    box-shadow: 0px 0px 0px blue;
     border-radius: 50px;
     width: 60%;
     margin-left: 10%;
@@ -141,13 +137,11 @@ nav li a:hover {
   margin-left: 3%;
   font-size: 1.5rem;
 }
-
 .a {
   margin: 3%;
   border-radius: 30px;
-  /* background-color: #336b87; */
   background-color: #84b3ca;
-  margin-bottom: 40%;
+  margin-bottom: 50%;
   padding: 1%;
   font-family: "Roboto Slab", serif;
   animation-name: blink;
@@ -155,6 +149,7 @@ nav li a:hover {
   animation-delay: 6s;
   z-index: 2;
   position: relative;
+  box-shadow: 6px 7px 0px #7689ff;
 }
 
 /* skill */
@@ -162,7 +157,6 @@ nav li a:hover {
   width: 100%;
   margin: 4px 0px;
   margin-left: 2%;
-  /* background-color: white; */
 }
 .skills {
   text-align: right;
@@ -205,7 +199,7 @@ nav li a:hover {
 }
 .php {
   width: 60%;
-  background-color: #f44336;
+  background-color: #808080;
   animation: mymove3 5s infinite;
   animation-timing-function: ease;
 }
@@ -219,7 +213,7 @@ nav li a:hover {
 }
 .c {
   width: 80%;
-  background-color: #808080;
+  background-color: #f44336;
   animation: mymove4 5s infinite;
   animation-timing-function: ease;
 }
@@ -247,32 +241,35 @@ nav li a:hover {
 }
 
 /* HOBBY */
-
 .sk,
 .h {
   margin: 3%;
   border-radius: 30px;
   background-color: #84b3ca;
-  margin-bottom: 8%;
+  margin-bottom: 10%;
   padding: 1%;
   font-family: "Roboto Slab", serif;
   animation-name: blink;
   animation-duration: 2s;
-  animation-delay: 13s;
+  animation-delay: 12s;
   z-index: 2;
   position: relative;
+  box-shadow: 6px 7px 0px #7689ff;
 }
 .sk {
   animation-name: blink;
   animation-duration: 2s;
-  animation-delay: 10s;
+  animation-delay: 9s;
   z-index: 2;
-  margin-bottom: 40%;
+  margin-bottom: 50%;
+  box-shadow: 0px 0px 0px #7689ff;
 }
+
 #acd {
   background-color: #c4dfe6;
-  /* margin-bottom: 470px; */
 }
+
+/* back button */
 #back {
   height: 30px;
   margin-bottom: 10px;
@@ -280,6 +277,11 @@ nav li a:hover {
   text-align: center;
   font-size: 20px;
 }
+#ok {
+  text-decoration: none;
+}
+
+/* ending text */
 #end {
   text-align: center;
   color: rgb(255, 0, 0);
@@ -287,9 +289,8 @@ nav li a:hover {
   font-weight: bolder;
   font-size: 2.1rem;
 }
-#ok {
-  text-decoration: none;
-}
+
+/* responsive */
 @media only screen and (max-width: 1100px) {
   nav li a {
     font-size: 1.4rem;
@@ -324,10 +325,11 @@ nav li a:hover {
   .a,
   .h,
   .sk {
-    margin-bottom: 50%;
+    margin-bottom: 60%;
     margin-top: 30%;
   }
 }
+
 @media only screen and (max-width: 950px) {
   nav li a {
     font-size: 1.3rem;
@@ -367,6 +369,7 @@ nav li a:hover {
     font-size: 0.8rem;
   }
 }
+
 @media only screen and (max-width: 850px) {
   nav li a {
     font-size: 1.1rem;
@@ -412,10 +415,11 @@ nav li a:hover {
   .s,
   .a,
   .sk {
-    margin-bottom: 60%;
+    margin-bottom: 70%;
     margin-top: 40%;
   }
 }
+
 @media only screen and (max-width: 670px) {
   nav li a {
     font-size: 1rem;
@@ -465,13 +469,12 @@ nav li a:hover {
   #end {
     font-size: 1.1rem;
   }
-
   .s,
   .a,
   .h,
   .sk {
-    margin-bottom: 80%;
-    margin-top: 40%;
+    margin-bottom: 130%;
+    margin-top: 60%;
   }
   .html,
   .css,
@@ -482,6 +485,7 @@ nav li a:hover {
     font-size: 0.7rem;
   }
 }
+
 @media only screen and (max-width: 500px) {
   nav li a {
     font-size: 0.8rem;
@@ -502,8 +506,8 @@ nav li a:hover {
   .a,
   .h,
   .sk {
-    margin-bottom: 80%;
-    margin-top: 60%;
+    margin-bottom: 150%;
+    margin-top: 80%;
   }
   .html,
   .css,
@@ -514,6 +518,7 @@ nav li a:hover {
     font-size: 0.6rem;
   }
 }
+
 @media only screen and (max-width: 400px) {
   nav li a {
     font-size: 0.6rem;
@@ -534,10 +539,19 @@ nav li a:hover {
   .a,
   .h,
   .sk {
-    margin-bottom: 100%;
-    margin-top: 80%;
+    margin-bottom: 200%;
+    margin-top: 90%;
+  }
+  .html,
+  .css,
+  .php,
+  .c,
+  .c-plusplus {
+    height: 1vh;
+    font-size: 0.4rem;
   }
 }
+
 @media only screen and (max-width: 325px) {
   nav li a {
     font-size: 0.5rem;
@@ -559,7 +573,7 @@ nav li a:hover {
   .a,
   .h,
   .sk {
-    margin-bottom: 150%;
-    margin-top: 80%;
+    margin-bottom: 250%;
+    margin-top: 100%;
   }
 }
