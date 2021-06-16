@@ -146,7 +146,7 @@ nav li a:hover {
   font-family: "Roboto Slab", serif;
   animation-name: blink;
   animation-duration: 2s;
-  animation-delay: 6s;
+  animation-delay: 7s;
   z-index: 2;
   position: relative;
   box-shadow: 6px 7px 0px #7689ff;
@@ -251,7 +251,7 @@ nav li a:hover {
   font-family: "Roboto Slab", serif;
   animation-name: blink;
   animation-duration: 2s;
-  animation-delay: 12s;
+  animation-delay: 15s;
   z-index: 2;
   position: relative;
   box-shadow: 6px 7px 0px #7689ff;
@@ -259,7 +259,7 @@ nav li a:hover {
 .sk {
   animation-name: blink;
   animation-duration: 2s;
-  animation-delay: 9s;
+  animation-delay: 11s;
   z-index: 2;
   margin-bottom: 50%;
   box-shadow: 0px 0px 0px #7689ff;
